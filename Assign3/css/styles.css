@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(65, 68, 74);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    background-color: rgb(253, 70, 37);
+    white-space: nowrap;
+    width: 10px;
+    height: 0px;
+}
+
+.main-container{
+    position: absolute;
+    top: 110pt;
+    left: 282pt;
+    transform: translate(-50%, -50%);
+}
+
+.circle{
+    position: absolute;
+    left: -40px;
+    top: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(253, 70, 37);
+}
+
+.background{
+    background-color: transparent;
+}
+
+
+.heading{
+    font-size: 3em;
+    background-color: transparent;
+}
+
+
+.form-container{
+    margin-left: 280pt;
+    margin-top: 270pt;
+}
+
+#name{
+width: 400px;
+height: 80px;
+margin-right: 39px;
+border-radius: 7px;
+border-width: 2px;
+}
+
+#email{
+    width: 400px;
+    height: 80px;
+    margin-right: 39px;
+    border-radius: 7px;
+    border-width: 2px;
+    
+    }
+
+#tel{
+    width: 400px;
+    height: 80px;
+    border-radius: 7px;
+    border-width: 2px;
+}
+
+#url {
+    width: 1288px;
+    height: 80px;
+    margin-top: 65px;
+    border-radius: 7px;
+    border-width: 2px;
+}
+
+#file{
+    width: 1288px;
+    height: 80px;
+    margin-top: 65px;
+    border-radius: 7px;
+    border-width: 2px;
+    border-style:dashed;
+    padding-top: 25px;
+    padding-left: 13px;
+}
+
+input, button{
+        font-size: 1.4rem;
+        color: white;
+        padding: 5px 10px;
+}
+
+button{
+    margin-left: 1118px;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+
+
+
+
