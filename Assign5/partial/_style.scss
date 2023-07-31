@@ -1,0 +1,22 @@
+$text-color: #A5A5A5;
+$circle-color: #3787C8;
+$fontfamily:'proxima-nova', sans-serif;
+
+@mixin mar-padd(){
+    margin: 0;
+    padding: 0;
+}
+
+@mixin bordered($color, $width){
+    border: $width solid $color;
+}
+
+@mixin margin-top-left($top, $left){
+    margin-top: $top;
+    margin-left: $left;
+}
+
+@mixin width-height($width, $height){
+    width: $width;
+    height: $height;
+}
