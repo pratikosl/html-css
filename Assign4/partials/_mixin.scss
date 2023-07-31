@@ -1,0 +1,23 @@
+@mixin mar-top-left-right-bottom($top, $left, $right, $bottom){
+    margin-top: $top;
+    margin-left: $left;
+    margin-right: $right;
+    margin-bottom: $bottom;
+}
+
+@mixin color($color){
+    color: $color;
+}
+
+@mixin font($font){
+    font-family: $font;
+}
+
+@mixin wdth-hgt($width,$height){
+    width: $width;
+    height: $height;
+}
+
+@mixin fnt-size($size){
+    font-size: $size;
+}
