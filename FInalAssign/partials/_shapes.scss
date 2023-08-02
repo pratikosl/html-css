@@ -1,0 +1,60 @@
+.circle-orange{
+    position: absolute;
+    aspect-ratio: 1/1;
+    background-color: #E14B32;
+    border-radius: 50%;
+    top: -13px;
+    left: -25px;
+    z-index: -1;
+    padding-left: 110px;
+    padding-top: 110px;
+  }
+
+
+  .circle-yellow{
+    position: absolute;
+    aspect-ratio: 1/1;
+    background-color: #FAAF41;
+    border-radius: 50%;
+    z-index: -1;
+    top: -18px;
+    margin-left: -35px;
+    padding-left: 110px;
+    padding-top: 110px;
+  }
+
+
+  .triangle{
+    display: inline-block;
+    position: absolute;
+    border-left: 20px solid #FAAF41;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #FAAF41;
+    border-top: 20px solid transparent;
+    top: 116.8px;
+    bottom: 279.8px;
+
+  }
+
+
+  .square {
+    position: relative;
+    min-height: 40px;
+    max-height: 40px;
+    width: 0;
+    aspect-ratio: 1/1;
+    background-color: #E14B32;
+}
+
+.square:after {
+    position: absolute;
+    content: "";
+    height: 60%;
+    border-left: 3px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+
+  

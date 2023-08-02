@@ -1,0 +1,20 @@
+@mixin mar-top-left-bottom-right($t, $l, $b, $r){
+    margin-top: $t;
+    margin-left: $l;
+    margin-bottom: $b;
+    margin-right: $r;
+}
+ 
+@mixin padd-top-left-bottom-right($t, $l, $b, $r){
+    padding-top: $t;
+    padding-left: $l;
+    padding-bottom: $b;
+    padding-right: $r;
+}
+ @mixin color($color){
+    color: $color;
+ }
+
+ @mixin font-f($font){
+    font-family: $font;
+ }
