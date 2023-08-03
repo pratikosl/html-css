@@ -13,7 +13,7 @@
 }
 
 .background-img {
-  background-image: url(../resources/img.jpeg);
+  background-image: linear-gradient(rgba(0, 149, 255, 0.75), rgba(0, 60, 255, 0.73)), url(../resources/img.jpg);
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -96,4 +96,19 @@
   font-size: 20px;
   border-radius: 50px;
   background: transparent;
+}
+
+@media only screen and (max-width: 500px) {
+  .container .background-img {
+    background: cover;
+    width: 500px;
+    height: 100vh;
+  }
+  .container .nav-content-text {
+    flex-direction: column;
+  }
+  .container .nav-content-text .nav-content-text-1 {
+    padding: 0;
+    margin-left: 20px;
+  }
 }/*# sourceMappingURL=styles.css.map */
